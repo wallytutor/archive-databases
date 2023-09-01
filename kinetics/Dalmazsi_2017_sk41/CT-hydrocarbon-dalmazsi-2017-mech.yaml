@@ -917,7 +917,7 @@ reactions:
   type: falloff
   low-P-rate-constant: {A: 5.56e+33, b: -5.0, Ea: 18.61}
   high-P-rate-constant: {A: 1.2e+11, b: 0.69, Ea: 12.58}
-  Troe: {A: 0.5, T3: 1.0e+30, T1: 1.0e+30, T2: 0.0}
+  Troe: {A: 0.5, T3: 1.0e+30, T1: 1.0e+30, T2: 1.0e-16}
   efficiencies: {C2H6: 3.0, CH4: 2.0, H2: 2.0}
 - equation: C3H3 + C4H4 <=> AC3H4 + I-C4H3  # Reaction 70
   rate-constant: {A: 1.0e+13, b: 0.0, Ea: 81.5}
@@ -999,13 +999,13 @@ reactions:
   type: falloff
   low-P-rate-constant: {A: 2.0e+15, b: 0.0, Ea: 200.84}
   high-P-rate-constant: {A: 1.0e+14, b: 0.0, Ea: 230.13}
-  Troe: {A: 0.5, T3: 1.0e+30, T1: 1.0e+30, T2: 0.0}
+  Troe: {A: 0.5, T3: 1.0e+30, T1: 1.0e+30, T2: 1.0e-16}
   efficiencies: {C2H6: 3.0, CH4: 2.0, H2: 2.0}
 - equation: I-C4H51 (+ M) <=> C4H4 + H (+ M)  # Reaction 109
   type: falloff
   low-P-rate-constant: {A: 2.0e+14, b: 0.0, Ea: 41.0}
   high-P-rate-constant: {A: 1.0e+13, b: 0.0, Ea: 204.8}
-  Troe: {A: 0.5, T3: 1.0e+30, T1: 1.0e+30, T2: 0.0}
+  Troe: {A: 0.5, T3: 1.0e+30, T1: 1.0e+30, T2: 1.0e-16}
   efficiencies: {C2H6: 3.0, CH4: 2.0, H2: 2.0}
 - equation: C4H4 + C4H4 <=> A1C2H3  # Reaction 110
   rate-constant: {A: 7.5e+13, b: 0.0, Ea: 159.0}

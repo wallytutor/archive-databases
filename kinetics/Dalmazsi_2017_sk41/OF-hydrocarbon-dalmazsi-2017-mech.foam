@@ -1334,7 +1334,7 @@ reactions
             alpha           0.5;
             Tsss            1e+30;
             Ts              1e+30;
-            Tss             0;
+            Tss             1.0e-16;
         }
         thirdBodyEfficiencies
         {
@@ -1711,7 +1711,7 @@ reactions
             alpha           0.5;
             Tsss            1e+30;
             Ts              1e+30;
-            Tss             0;
+            Tss             1.0e-16;
         }
         thirdBodyEfficiencies
         {
@@ -1784,7 +1784,7 @@ reactions
             alpha           0.5;
             Tsss            1e+30;
             Ts              1e+30;
-            Tss             0;
+            Tss             1.0e-16;
         }
         thirdBodyEfficiencies
         {

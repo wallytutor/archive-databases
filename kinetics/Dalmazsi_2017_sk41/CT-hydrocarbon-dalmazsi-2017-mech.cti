@@ -969,7 +969,7 @@ falloff_reaction('AC3H4 + H (+ M) <=> AC3H5 (+ M)',
                  kf=[1.200000e+11, 0.69, 12.58],
                  kf0=[5.560000e+33, -5.0, 18.61],
                  efficiencies='C2H6:3.0 CH4:2.0 H2:2.0',
-                 falloff=Troe(A=0.5, T3=1e+30, T1=1e+30, T2=0.0))
+                 falloff=Troe(A=0.5, T3=1e+30, T1=1e+30, T2=1.0e-16))
 
 # Reaction 70
 reaction('C3H3 + C4H4 <=> AC3H4 + I-C4H3', [1.000000e+13, 0.0, 81.5])
@@ -1094,14 +1094,14 @@ falloff_reaction('I-C4H3 (+ M) <=> C4H2 + H (+ M)',
                  kf=[1.000000e+14, 0.0, 230.13],
                  kf0=[2.000000e+15, 0.0, 200.84],
                  efficiencies='C2H6:3.0 CH4:2.0 H2:2.0',
-                 falloff=Troe(A=0.5, T3=1e+30, T1=1e+30, T2=0.0))
+                 falloff=Troe(A=0.5, T3=1e+30, T1=1e+30, T2=1.0e-16))
 
 # Reaction 109
 falloff_reaction('I-C4H51 (+ M) <=> C4H4 + H (+ M)',
                  kf=[1.000000e+13, 0.0, 204.8],
                  kf0=[2.000000e+14, 0.0, 41.0],
                  efficiencies='C2H6:3.0 CH4:2.0 H2:2.0',
-                 falloff=Troe(A=0.5, T3=1e+30, T1=1e+30, T2=0.0))
+                 falloff=Troe(A=0.5, T3=1e+30, T1=1e+30, T2=1.0e-16))
 
 # Reaction 110
 reaction('C4H4 + C4H4 <=> A1C2H3', [7.500000e+13, 0.0, 159.0])
